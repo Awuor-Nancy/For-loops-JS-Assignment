@@ -59,8 +59,8 @@
     for(let year = 2000;year < 2022; year++){ 
         if((year % 4 === 0 && year % 100 !== 0) || (year % 100 === 0 && year % 400 === 0))
         console.log(year);
-       else
-       console.log (false);
+    //    else
+    //    console.log (false);
     } 
      
   
